@@ -1,0 +1,12 @@
+import numpy as np
+nv = np.zeros(10)
+nv
+array([ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.])
+
+
+#null vector with size 10 with the fifth element as 1
+nv1 = np.zeros(10)
+nv1[4] = 1
+print(nv1)
+array([ 0.,  0.,  0.,  0.,  1.,  0.,  0.,  0.,  0.,  0.])
+

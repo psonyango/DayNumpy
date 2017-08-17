@@ -1,6 +1,0 @@
-import numpy as np
-nv = np.zeros(10)
-nv
-array([ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.])
-
-
