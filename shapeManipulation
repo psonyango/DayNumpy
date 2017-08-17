@@ -1,0 +1,32 @@
+import numpy as np
+
+one = np.arange(2,10)
+
+one
+Out[13]: array([2, 3, 4, 5, 6, 7, 8, 9])
+
+one = np.arange(2,10).reshape(2,4)
+
+one
+Out[15]: 
+array([[2, 3, 4, 5],
+       [6, 7, 8, 9]])
+
+one
+Out[16]: 
+array([[2, 3, 4, 5],
+       [6, 7, 8, 9]])
+
+two = one.T
+
+two
+Out[18]: 
+array([[2, 6],
+       [3, 7],
+       [4, 8],
+       [5, 9]])
+
+three = two.ravel()
+
+three
+Out[20]: array([2, 6, 3, 7, 4, 8, 5, 9])
